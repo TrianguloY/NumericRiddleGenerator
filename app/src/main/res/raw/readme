@@ -1,0 +1,28 @@
+This app is a tool to create your own riddles/escape rooms (those with relations number->text/image).
+
+Note: you can specify only text, only image or both for each 4-digit number
+
+To start go to your external/internal memory and open the folder 'CustomRiddle'.
+
+There you need to put all the necessary files, either editing them directly on your device or copying them from your computer. The app will not modify any of them (except the readme) even after uninstalling the app.
+
+This is the format you need for the files:
+
+Message of a number
+- Name of file: digits (all 4) + '.txt' {example '0123.txt'}
+- Content: The text you want to be shown when the user inputs that number {example 'Correct, the next number is 4567'}
+
+Image of a number
+- Name of file: digits(all 4) + '.png' OR '.jpg' {example '0123.jpg'}
+- Content: Any image. It will be scaled to have the width as the device, can be scrolled vertically if necessary.
+
+Message of an invalid number (default message)
+- Name of file: default.txt
+- Content: The text you want to be shown when the user inputs a number without a specific file. {example: 'Incorrect, try again'}
+
+Title of app
+- Name of file: title.txt
+- Content: The text to shown as title of the activity {example 'My awesome escape room'}
+
+Final note: This message will be shown on each startup, click on 'don't show again' to disable this.
+But don't worry, this message is saved on the folder as readme.txt to check it when necessary.

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Numeric riddle generator</string>
+
+    <string name="default_default">Incorrect. Try again!</string>
+    <string name="error">Uh oh, this was unexpected :$\n(There was an error extracting the string from the file, did you granted the write permission?)</string>
+    <string name="text_initial">Loading…</string>
+
+    <string name="filename_readme">readme.txt</string>
+    <string name="filename_title">title.txt</string>
+    <string name="filename_default">default.txt</string>
+    <string name="filename_directory">CustomRiddle</string>
+    <string name="filename_nomedia">.nomedia</string>
+
+    <string name="extension_text">.txt</string>
+    <string name="extension_image_list">.jpg;.png</string>
+    <string name="extension_image_split">;</string>
+
+    <string name="dontShowAgain">Don\'t show again</string>
+
+    <string name="title_readme">Readme</string>
+    <string name="title_askPermission">Permission needed</string>
+    <string name="title_demo">Demo riddle</string>
+
+    <string name="message_askPermission">This app reads the files from the external storage. You need to grant the write permission, otherwise this app will be useless.</string>
+    <string name="message_demo">This seems your first time running this app. Do you want to load the demo riddle?\nThis will create some files in the app folder, which you can use to learn from example how to create your own riddle.\nThis option is recommended unless you already used the app in the past and already know how to create riddles.</string>
+
+    <string name="button_enter"><![CDATA[>]]></string>
+    <string name="image_description">Image</string>
+    <string name="filecontent_nomedia">This file tells android not to show media files on the gallery app.</string>
+
+
+</resources>
