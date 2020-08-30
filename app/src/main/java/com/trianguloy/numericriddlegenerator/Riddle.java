@@ -123,7 +123,11 @@ public class Riddle extends Activity {
                         .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                askCopyDemo();
+                                if(finalSaveDemo) {
+                                    askCopyDemo();
+                                }else{
+                                    initialize_app();
+                                }
                             }
                         })
                         .setNegativeButton(R.string.dontShowAgain, new DialogInterface.OnClickListener() {
@@ -247,7 +251,7 @@ public class Riddle extends Activity {
 
     final private int NUMBER = 7642853;//I smashed the numeric row
 
-    @TargetApi(Build.VERSION_CODES.M)
+
     private boolean checksPermission() {
         if (Build.VERSION.SDK_INT < 23) {
             //should be granted

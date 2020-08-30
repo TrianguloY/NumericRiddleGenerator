@@ -23,7 +23,6 @@ class Preferences {
 
 
 
-
     private static final String KEY_VERSION = "version";
     private static final String DEFAULT_VERSION = "";
 
