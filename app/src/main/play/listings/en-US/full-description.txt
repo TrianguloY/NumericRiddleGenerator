@@ -1,0 +1,23 @@
+This app is a tool to create your own riddles/escape rooms (those with relations number->text/image) to play at home with friends or anywhere else.
+
+Note: you can specify only text, only image or both for each 4-digit number
+
+This is the list of things you can customize:
+- Title of the app
+- Text of a specific number
+- Image of a specific number
+- Text of not-specified number
+
+This is the list of things you can't customize (yet)
+- Theme of the app
+- Background
+- Number of digits (only 4)
+- Image of not-specified number
+
+As of update 2.0 there is now a demo you can load to see how it works.
+Many thanks to Jorge del Castillo for it!
+
+
+If you have any suggestion feel free to contact me (or write it in the comments) although I can't promise I'll be able to implement it :/
+
+The source code is available on GitHub; https://github.com/TrianguloY/NumericRiddleGenerator

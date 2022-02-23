@@ -1,0 +1,9 @@
+V 2.1
+- Removed controversial Mulan reference in the demo (note: this will only be applied to new installs or when the app folder is deleted)
+
+V 2.0
+Added demo/tutorial. Remember this app allows YOU to create your own riddles, but now there is a demo you can load.
+Many thanks to Jorge del Castillo for it!
+
+V 1.0
+Initial release on Play Store
